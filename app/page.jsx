@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Feed from "@components/Feed";
+
 const Home = () => {
     return(
         <section className="w-full flex-center flex-col">
@@ -7,7 +8,6 @@ const Home = () => {
             <p className="desc text-center">Vercel-AI is a community of writers, poets, and artists who use AI to create new works.</p>
             <Feed/>
             </section>
-
     )
     }
 
